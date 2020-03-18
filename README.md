@@ -7,13 +7,13 @@ It uses the below tesch stack
   - PostGres
   - Docker
 
-##Running the project
+## Running the project
 
 The Service is dockerized and pushed to dockerHub
 
 Just run the docker compose file to install and run the containers locally
 
-##Few Other Points
+## Few Other Points
 
 - The addEmployeeBulk was not implemented as a similar service has been implemented in my previous project named `inventory-servce` which is available in my gitRepo.
   As for handling large number of data it is advisable to use a Queue which i have used the same in my service which will help to push large number of products in bulk.
